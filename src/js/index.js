@@ -8,11 +8,12 @@ console.log(inputText)
 console.log(inputs)
 
 
-inputText.forEach(input => {
+inputText.forEach(function (input, index) {
     input.addEventListener('change', () => {
         if (input.value !== "") {
             input.classList.add("campo-preenchido")
-            console.log(inputText)
+            inputs[index].classList.remove("nao-preenchido")
+
         } else {
             input.classList.remove("campo-preenchido")
             console.log(inputText)
