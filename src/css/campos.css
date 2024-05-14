@@ -1,0 +1,25 @@
+/* ESTILOS CASO O CAMPO NÃO ESTEJA PREENCHIDO */
+
+.campos-de-dados .campos .inputs.nao-preenchido .campo-obrigatorio{
+    color: #F52E2E;
+    font-size: 8px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    display: block;  
+}
+.campos-de-dados .campos .inputs.nao-preenchido .input-text{
+    border: 1px solid #F52E2E;
+    margin-bottom: 0px;
+}
+.campos-de-dados .campos .inputs.nao-preenchido .campo-obrigatorio:last-child {
+    margin-bottom: 7px;
+}
+.campos-de-dados .campos .inputs.nao-preenchido #mensagem{
+    margin-bottom: 0px;
+}
+
+/* ESTILOS CASO O CAMPO ESTEJA PREENCHIDO */
+.campos-de-dados .campos .inputs .campo-preenchido {
+    border: 1px solid green;
+    padding: 5px;
+}
