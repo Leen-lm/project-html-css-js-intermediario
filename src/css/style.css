@@ -39,7 +39,7 @@ main {
 .campos-de-dados .campos {
     display: flex;
     flex-direction: column;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 20px 0px 25px;
 }
 
 .campos-de-dados .campos .input-text{
@@ -69,6 +69,10 @@ main {
     padding: 7px 10px;
 }
 
+.campo-de-envio {
+    margin-left: -3px;
+}
+
 .campos-de-dados .sinalizando-obrigatorios {
     font-weight: 400;
     font-size: 15px;
@@ -82,7 +86,6 @@ main {
     width: 298px;
     height: 41px;
     border-radius: 5px;
-    margin: 0px 22px 22px 0px;
     cursor: pointer;
 }
 
