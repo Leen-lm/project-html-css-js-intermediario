@@ -1,12 +1,6 @@
 const inputText = document.querySelectorAll(".input-text")
 const inputs = document.querySelectorAll(".inputs")
 const botaoEnviar = document.getElementById("botao-enviar")
-console.log(botaoEnviar)
-
-
-console.log(inputText)
-console.log(inputs)
-
 
 inputText.forEach(function (input, index) {
     input.addEventListener('change', () => {
@@ -16,7 +10,7 @@ inputText.forEach(function (input, index) {
 
         } else {
             input.classList.remove("campo-preenchido")
-            console.log(inputText)
+            
         }
     })
 })
@@ -29,5 +23,6 @@ botaoEnviar.addEventListener("click", function(){
             inputs[index].classList.remove("nao-preenchido")
         }
 
+        console.log(input.value)
     })
 })

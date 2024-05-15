@@ -21,30 +21,31 @@
             </p>
         </div>
         <div class="campos-de-dados">
-            <div class="campos">
+            <form action="#" class="campos">
                 <div class="inputs">
-                    <input type="text" class="input-text" placeholder="Nome completo *">
+                    <input type="text" class="input-text" placeholder="Nome completo *" required>
                     <span class="campo-obrigatorio">campo obrigatório</span>
                 </div>
                 <div class="inputs">
-                    <input type="email" class="input-text" placeholder="Email *">
+                    <input type="email" class="input-text" placeholder="Email *" required>
                     <span class="campo-obrigatorio">campo obrigatório</span>
                 </div>
                 <div class="inputs">
-                    <input type="tel" class="input-text" placeholder="Telefone *">
+                    <input type="tel" class="input-text" placeholder="Telefone *" required>
                     <span class="campo-obrigatorio">campo obrigatório</span>
                 </div>
                 <div class="inputs">    
-                    <textarea id="mensagem" class="input-text" value="" placeholder="Mensagem *"></textarea>
+                    <textarea id="mensagem" class="input-text" value="" placeholder="Mensagem *" required></textarea>
                     <span class="campo-obrigatorio">campo obrigatório</span>
                 </div>
-            </div>
-            <p class="sinalizando-obrigatorios">
-                *campos obrigatórios
-            </p>
-            <button id="botao-enviar" class="enviar-dados">
-                Enviar
-            </button>
+                <p class="sinalizando-obrigatorios">
+                    *campos obrigatórios
+                </p>
+                <button type="submit" id="botao-enviar" class="enviar-dados">
+                    Enviar
+                </button>
+            </form>
+            
     </main>
 
     <script src="./src/js/validacao.js"></script>
