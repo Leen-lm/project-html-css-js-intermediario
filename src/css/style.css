@@ -44,7 +44,7 @@ main {
 
 .campos-de-dados .campos .input-text{
     border-radius: 5px;
-    border: 1px solid #000;
+    border: 1px solid #05258f;
     width: 290px;
     height: 35px;
     margin-bottom: 15px;
@@ -70,7 +70,7 @@ main {
 }
 
 .campo-de-envio {
-    margin-left: -3px;
+    margin: 0px 0px 16px -3px;
 }
 
 .campos-de-dados .sinalizando-obrigatorios {
