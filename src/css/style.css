@@ -44,7 +44,7 @@ main {
 
 .campos-de-dados .campos .input-text{
     border-radius: 5px;
-    border: 1px solid #05258f;
+    border: 1px solid #000;
     width: 290px;
     height: 35px;
     margin-bottom: 15px;
