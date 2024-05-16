@@ -1,0 +1,27 @@
+@media(max-width: 660px ){
+    main {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 340px) {
+    .campos-de-dados {
+        width: 90%;
+    }
+    .campos-de-dados .campos{
+        width: 100%;
+        padding: 25px 25px 3px 25px;
+    }
+    .campos-de-dados .campos .inputs{
+        width: 100%;
+    }
+    .campos-de-dados .campos .inputs .input-text{
+        width: 100%;
+    }
+    .campos-de-dados .campos .inputs #mensagem{
+        width: 100%;
+    }
+    .campos-de-dados .campos .campo-de-envio .enviar-dados {
+        width: 100%;
+    }
+}

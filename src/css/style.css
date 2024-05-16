@@ -15,6 +15,7 @@ main {
 .texto-duvida {
     max-width: 300px;
     color: white;
+    padding: 5px;
 }    
 
 .texto-duvida .title-duvidas {
@@ -31,6 +32,7 @@ main {
 }
 
 .campos-de-dados {
+    display: flex;
     background-color: white;
     width: 340px;
     min-height: 378px;  
@@ -70,7 +72,7 @@ main {
 }
 
 .campo-de-envio {
-    margin: 0px 0px 16px -3px;
+    margin: 0px 0px 16px 0px;
 }
 
 .campos-de-dados .sinalizando-obrigatorios {
